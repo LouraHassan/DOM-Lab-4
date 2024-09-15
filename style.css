@@ -1,0 +1,25 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#change{
+    padding: 10px;
+    border-radius: 5px;
+background-color: rgb(206, 191, 226);
+margin: 10px;
+
+}
+.square{
+    width: 30vw;
+    height: 40vh;
+    background-color: blue;
+    border-radius: 2px;
+}
