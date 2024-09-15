@@ -10,5 +10,12 @@ function ChangeBox() {
     box.style.borderRadius = border.value + "px";
     box.style.backgroundColor = color.value ;
 
+}
+
+function resetBox() {
+    box.style.width = "30vw";
+    box.style.height = "40vh";
+    box.style.borderRadius = "2px";
+    box.style.backgroundColor = "blue" ;
 
 }
